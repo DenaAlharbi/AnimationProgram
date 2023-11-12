@@ -62,6 +62,8 @@ public class HelloApplication extends Application {
         }));
 
         animation.setCycleCount(Timeline.INDEFINITE);
+        animation.play();
+
 
         btk.setOnAction(event -> {
             if (animation.getStatus() == Animation.Status.RUNNING) {
